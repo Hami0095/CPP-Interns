@@ -1,0 +1,27 @@
+#include<iostream>
+
+using namespace std;
+
+//returnTpe functionName(parameters);
+
+int add(int x, int y) {
+	return x + y;
+}
+
+void print(string str) {
+	cout << str;
+}
+
+void main() {
+	// parameters r called arguments when function is called
+	cout << add(5, 2) << endl;
+	//print("Hahodhasodao");
+	int a; 
+	string str;
+	cout << "Enter a number : ";
+	cin >> a;	
+	cout << "Enter a string : ";
+	cin >> str;
+	cout << a << endl;
+	cout << str;
+}
